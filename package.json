@@ -4,16 +4,14 @@
   "description": "the simplest possible http-server for testing purposes",
   "scripts": {
     "start": "node server.js",
-    "test": "node test.js",
-    "deploy": "sh bin/deploy.sh"
+    "test": "node --check server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nelsonic/hello-world-node-http-server.git"
+    "url": "https://github.com/scottaculous/hello-world-node-http-server.git"
   },
   "license": "ISC",
   "engines": {
-    "node": "8.11.2",
-    "npm": "5.6.0"
+    "node": ">=20"
   }
 }
